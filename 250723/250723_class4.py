@@ -17,7 +17,7 @@ def func2(n1, n2):
 arr1 = [1, 2, 3]
 arr2 = [4, 5, 6]
 result2 = list(map(func2, arr1, arr2))
-print(result2)
+print(result2)   # [5, 7, 9]
 
 # lambda 와 함께 활용하는 방법
 # - 이름 리스트 -> key 값이 name 인 dictionary 를 구현해서, list 로 반환
@@ -29,3 +29,4 @@ ages = [40, 30, 20]
 result3 = list(map(lambda name, age: 
                    {'name': name, 'age': age}, names, ages))
 print(result3)
+# 결과값 : [{'name': '금기륜', 'age': 40}, {'name': '이강우', 'age': 30}, {'name': '오규태', 'age': 20}]
