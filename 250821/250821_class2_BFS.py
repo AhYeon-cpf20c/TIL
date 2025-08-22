@@ -28,10 +28,8 @@ for _ in range(M):
     s, e = map(int, input().split())
     graph[s].append(e)
     graph[e].append(s)  # 양방향 그래프
-print('graph :', graph)
 
 visited = [0] * N  # 각 노드에 방문 여부
 
 visited[0] = 1  # 출발점은 방문했다고 가정하고 시작
-print('visited:', visited)
 bfs(0)
