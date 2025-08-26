@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>문제3</title>
+  <style>
+    body {
+      font-style: Arial, sans-serif;
+      font-size: 16px;
+      color: #333333;
+      margin: 0;
+    }
+
+    .container {
+      background-color: #f0f0f0;
+      padding: 20px;
+      /* 굵기, 종류, 색상 */
+      /* border-style
+      border-style
+      border-width */
+      /* border: 1px solid #000; */
+    }
+
+    .parent {
+      font-weight: bold;
+      border: 1px solid #000;
+      margin-bottom: 20px;
+    }
+
+    .child {
+      background-color: skyblue;
+      color: red;
+      padding: 10px
+    }
+
+    .grandchild {
+      font-style: italic;
+      border: 1px dashed red;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="parent">
+      <h2>부모 요소</h2>
+      <p>부모 요소의 텍스트 입니다.</p>
+      <div class="child">
+        <h2>자식 요소</h2>
+        <p>자식 요소의 텍스트입니다.</p>
+        <span class="grandchild">손자 요소의 텍스트입니다.</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
